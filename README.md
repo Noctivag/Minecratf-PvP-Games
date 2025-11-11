@@ -1,6 +1,6 @@
 # NextLevelPvP - Minecraft PvP Plugin
 
-A comprehensive Minecraft PvP plugin featuring multiple game modes and arena management system.
+A comprehensive Minecraft PvP plugin featuring multiple game modes and arena management system for Paper 1.21.1+.
 
 ## Features
 
@@ -59,8 +59,9 @@ A comprehensive Minecraft PvP plugin featuring multiple game modes and arena man
 ## Building from Source
 
 Requirements:
-- Java 17 or higher
+- Java 21 or higher
 - Maven
+- Paper 1.21.1 or higher
 
 ```bash
 git clone <repository-url>

@@ -308,7 +308,7 @@ public class KingOfTheHillMode extends com.nextlevel.pvp.gamemode.GameMode {
                         message.append("&e").append(p.getName()).append(": &a").append(score).append(" ");
                     }
                 }
-                player.sendActionBar(MessageUtil.colorize(message.toString()));
+                MessageUtil.sendActionBar(player, message.toString());
             }
         }
     }

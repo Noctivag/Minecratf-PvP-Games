@@ -1,7 +1,7 @@
 name: NextLevelPvP
 version: ${project.version}
 main: com.nextlevel.pvp.NextLevelPvP
-api-version: 1.20
+api-version: '1.21'
 author: NextLevel
 description: A comprehensive PvP plugin with multiple game modes and arena management
 
