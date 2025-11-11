@@ -1,0 +1,72 @@
+# NextLevelPvP Configuration
+
+# Game Settings
+game:
+  min-players: 2
+  max-players: 16
+  countdown-time: 10
+  game-duration: 600  # seconds (10 minutes)
+  respawn-time: 5     # seconds
+
+# Arena Settings
+arena:
+  auto-load: true
+  save-interval: 300  # seconds (5 minutes)
+
+# Game Mode Settings
+gamemodes:
+  ffa:
+    enabled: true
+    name: "Free-For-All"
+    description: "Every player for themselves!"
+    kill-limit: 20
+    time-limit: 600
+  duel:
+    enabled: true
+    name: "1v1 Duel"
+    description: "Fight in an honorable duel!"
+    best-of: 3
+  tdm:
+    enabled: true
+    name: "Team Deathmatch"
+    description: "Team up and dominate!"
+    team-size: 4
+    kill-limit: 50
+  koth:
+    enabled: true
+    name: "King of the Hill"
+    description: "Control the hill to win!"
+    capture-time: 60    # seconds
+    point-value: 1
+
+# Player Settings
+player:
+  keep-inventory: false
+  keep-exp: false
+  restore-after-game: true
+  save-stats: true
+
+# Rewards
+rewards:
+  win:
+    money: 100
+    exp: 50
+  kill:
+    money: 10
+    exp: 5
+  death:
+    money: -5
+
+# Messages
+messages:
+  prefix: "&8[&cNext&fLevel&bPvP&8] &r"
+  game-start: "&aThe game has started! Good luck!"
+  game-end: "&eThe game has ended!"
+  player-join: "&a{player} has joined the game!"
+  player-leave: "&c{player} has left the game!"
+  arena-created: "&aArena &e{arena} &ahas been created!"
+  arena-deleted: "&cArena &e{arena} &chas been deleted!"
+  not-enough-players: "&cNot enough players to start the game!"
+  game-full: "&cThis game is full!"
+  already-in-game: "&cYou are already in a game!"
+  not-in-game: "&cYou are not in a game!"
