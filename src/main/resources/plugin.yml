@@ -1,0 +1,26 @@
+name: NextLevelPvP
+version: ${project.version}
+main: com.nextlevel.pvp.NextLevelPvP
+api-version: 1.20
+author: NextLevel
+description: A comprehensive PvP plugin with multiple game modes and arena management
+
+commands:
+  pvp:
+    description: Main PvP command
+    usage: /pvp <help|join|leave|create|stats>
+    aliases: [pvpgame, pvpg]
+
+permissions:
+  nextlevelpvp.admin:
+    description: Allows access to all admin commands
+    default: op
+  nextlevelpvp.play:
+    description: Allows players to join PvP games
+    default: true
+  nextlevelpvp.create:
+    description: Allows creating arenas
+    default: op
+  nextlevelpvp.stats:
+    description: Allows viewing stats
+    default: true
